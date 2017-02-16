@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  BaseViewController.h
 //  MyBaseProject
 //
-//  Created by 任波 on 16/12/9.
+//  Created by 任波 on 16/12/10.
 //  Copyright © 2016年 apple. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BaseViewController : UIViewController
 
 @end
-
