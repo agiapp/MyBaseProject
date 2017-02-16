@@ -1,0 +1,61 @@
+//
+//  PrefixHeader.pch
+//  MyBaseProject
+//
+//  Created by 任波 on 17/2/16.
+//  Copyright © 2017年 apple. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/*
+ 解决pch文件没有代码提示的问题:
+ 任意找一个位置--appdelegate.m文件
+ 调用以下pch文件中 任意一个头文件所包含的方法,然后build(cmd + B),即可
+ */
+
+#import <UIKit/UIKit.h>             //UI
+#import <Foundation/Foundation.h> //NS
+
+//这个文件中,经常会声明一些全局变量或者方法
+#import "AppDelegate.h"
+
+//全局宏定义文件
+#import "Constants.h"
+#import "Methods.h"
+
+//集成CocoaLumberjack:取代NSLog
+#import <CocoaLumberjack.h>
+//定义当前打印的 打印等级
+#ifdef DEBUG //当前是调试模式
+//verbose>info>warning>error
+static const int ddLogLevel = DDLogLevelVerbose;
+#else //已上架模式
+static const int ddLogLevel = DDLogLevelError;
+#endif
+
+
+//只要有网络操作
+#import <AFNetworking.h>
+#import <UIKit+AFNetworking.h>
+
+//可选, 与UIKit+AFNetworking.h冲突, 二选一
+//#import <SDImageCache.h>
+
+//头部刷新
+//#import <MJRefresh.h>
+#import "UIScrollView+Refresh.h"
+#import "NSObject+HUD.h"
+
+/*按照功能需求 可选  */
+//#import <FMDB.h>
+//#import <CocoaAsyncSocket.h>
+//......
+
+#import <Masonry.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+
+
+#endif /* PrefixHeader_pch */
