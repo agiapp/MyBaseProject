@@ -10,6 +10,20 @@
 
 @implementation NSString (Check)
 
+#pragma 判断字符串是否为空字符
++ (BOOL)isBlankString:(NSString *)string {
+    if (string == nil || string == NULL) {
+        return YES;
+    }
+    if ([string isKindOfClass:[NSNull class]]) {
+        return YES;
+    }
+    if ([[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length] == 0) {
+        return YES;
+    }
+    return NO;
+}
+
 #pragma 正则匹配手机号
 + (BOOL)checkTelNumber:(NSString *)telNumber {
     telNumber = [telNumber stringByReplacingOccurrencesOfString:@" " withString:@""];

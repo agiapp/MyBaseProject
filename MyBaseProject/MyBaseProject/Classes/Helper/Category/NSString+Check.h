@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (Check)
+
+/** 判断字符串是否为空字符 */
++ (BOOL)isBlankString:(NSString *)string;
+
 /** 正则匹配手机号 */
 + (BOOL)checkTelNumber:(NSString *) telNumber;
 
