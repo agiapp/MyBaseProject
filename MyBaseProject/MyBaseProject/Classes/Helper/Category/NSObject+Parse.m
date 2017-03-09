@@ -9,7 +9,7 @@
 #import "NSObject+Parse.h"
 
 @implementation NSObject (Parse)
-/** MJExtension是从属性名 -> key */
+/** MJExtension是从模型(属性名) <-> JSON数据(key) */
 + (id)parse:(id)responseObj{
     if ([responseObj isKindOfClass:[NSArray class]]) {
         return [self mj_objectArrayWithKeyValuesArray:responseObj];
