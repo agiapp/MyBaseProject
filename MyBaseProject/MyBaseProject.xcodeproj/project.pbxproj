@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		862CC5743E1B62D686DD8ED8 /* libPods-MyBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6EC5F46F179928508A66EC /* libPods-MyBaseProject.a */; };
 		C54394CF1E715EFB005EF454 /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = C54394CE1E715EFB005EF454 /* NSString+Check.m */; };
+		C54394D51E729A85005EF454 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = C54394D41E729A85005EF454 /* UIImage+Color.m */; };
 		C5709A061DFA83E3002704EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5709A051DFA83E3002704EB /* main.m */; };
 		C5709A091DFA83E3002704EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5709A081DFA83E3002704EB /* AppDelegate.m */; };
 		C5709A0F1DFA83E3002704EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5709A0D1DFA83E3002704EB /* Main.storyboard */; };
@@ -31,6 +32,8 @@
 		A1DB763C942612557C586CB5 /* Pods-MyBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyBaseProject/Pods-MyBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		C54394CD1E715EFB005EF454 /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
 		C54394CE1E715EFB005EF454 /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
+		C54394D31E729A85005EF454 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		C54394D41E729A85005EF454 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		C5709A011DFA83E3002704EB /* MyBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5709A051DFA83E3002704EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5709A071DFA83E3002704EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -221,6 +224,8 @@
 				C5F9C7D21E55582100FCB7BD /* NSObject+HUD.m */,
 				C54394CD1E715EFB005EF454 /* NSString+Check.h */,
 				C54394CE1E715EFB005EF454 /* NSString+Check.m */,
+				C54394D31E729A85005EF454 /* UIImage+Color.h */,
+				C54394D41E729A85005EF454 /* UIImage+Color.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -392,6 +397,7 @@
 				C5F9C7CF1E5552CE00FCB7BD /* NSObject+Parse.m in Sources */,
 				C5F9C7C31E55418B00FCB7BD /* BaseNetManager.m in Sources */,
 				C5709A061DFA83E3002704EB /* main.m in Sources */,
+				C54394D51E729A85005EF454 /* UIImage+Color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
