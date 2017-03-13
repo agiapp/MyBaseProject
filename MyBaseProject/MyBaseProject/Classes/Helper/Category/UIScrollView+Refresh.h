@@ -10,7 +10,6 @@
 #import <MJRefresh.h>
 
 @interface UIScrollView (Refresh)
-/// 封装MJRefresh第三方框架（对滚动视图进行类别/扩展）
 
 /** 添加头部刷新 */
 - (void)addHeaderRefresh:(MJRefreshComponentRefreshingBlock)refreshBlock;
