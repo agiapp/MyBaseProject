@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		862CC5743E1B62D686DD8ED8 /* libPods-MyBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6EC5F46F179928508A66EC /* libPods-MyBaseProject.a */; };
+		C50487181E8C016D007E626C /* UINavigationController+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C50487171E8C016D007E626C /* UINavigationController+Alpha.m */; };
 		C54394CF1E715EFB005EF454 /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = C54394CE1E715EFB005EF454 /* NSString+Check.m */; };
-		C54394D51E729A85005EF454 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = C54394D41E729A85005EF454 /* UIImage+Color.m */; };
 		C5491C431E83926E00A11807 /* UINavigationController+Back.m in Sources */ = {isa = PBXBuildFile; fileRef = C5491C421E83926E00A11807 /* UINavigationController+Back.m */; };
+		C55F7CC31E8AAF3700F12E10 /* UIImage+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F7CC21E8AAF3700F12E10 /* UIImage+BRAdd.m */; };
 		C5709A061DFA83E3002704EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5709A051DFA83E3002704EB /* main.m */; };
 		C5709A091DFA83E3002704EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5709A081DFA83E3002704EB /* AppDelegate.m */; };
 		C5709A0F1DFA83E3002704EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5709A0D1DFA83E3002704EB /* Main.storyboard */; };
@@ -31,12 +32,14 @@
 		5F6EC5F46F179928508A66EC /* libPods-MyBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D63256C6F845543982445E8 /* Pods-MyBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyBaseProject/Pods-MyBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A1DB763C942612557C586CB5 /* Pods-MyBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyBaseProject/Pods-MyBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		C50487161E8C016D007E626C /* UINavigationController+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Alpha.h"; sourceTree = "<group>"; };
+		C50487171E8C016D007E626C /* UINavigationController+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Alpha.m"; sourceTree = "<group>"; };
 		C54394CD1E715EFB005EF454 /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
 		C54394CE1E715EFB005EF454 /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
-		C54394D31E729A85005EF454 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
-		C54394D41E729A85005EF454 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		C5491C411E83926E00A11807 /* UINavigationController+Back.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Back.h"; sourceTree = "<group>"; };
 		C5491C421E83926E00A11807 /* UINavigationController+Back.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Back.m"; sourceTree = "<group>"; };
+		C55F7CC11E8AAF3700F12E10 /* UIImage+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BRAdd.h"; sourceTree = "<group>"; };
+		C55F7CC21E8AAF3700F12E10 /* UIImage+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BRAdd.m"; sourceTree = "<group>"; };
 		C5709A011DFA83E3002704EB /* MyBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5709A051DFA83E3002704EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5709A071DFA83E3002704EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -227,10 +230,12 @@
 				C5F9C7D21E55582100FCB7BD /* NSObject+HUD.m */,
 				C54394CD1E715EFB005EF454 /* NSString+Check.h */,
 				C54394CE1E715EFB005EF454 /* NSString+Check.m */,
-				C54394D31E729A85005EF454 /* UIImage+Color.h */,
-				C54394D41E729A85005EF454 /* UIImage+Color.m */,
+				C55F7CC11E8AAF3700F12E10 /* UIImage+BRAdd.h */,
+				C55F7CC21E8AAF3700F12E10 /* UIImage+BRAdd.m */,
 				C5491C411E83926E00A11807 /* UINavigationController+Back.h */,
 				C5491C421E83926E00A11807 /* UINavigationController+Back.m */,
+				C50487161E8C016D007E626C /* UINavigationController+Alpha.h */,
+				C50487171E8C016D007E626C /* UINavigationController+Alpha.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				TargetAttributes = {
 					C5709A001DFA83E3002704EB = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 56HTN5B782;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -397,13 +403,14 @@
 				C5F9C7D31E55582100FCB7BD /* NSObject+HUD.m in Sources */,
 				C5F9C7BD1E553BCD00FCB7BD /* NSObject+Network.m in Sources */,
 				C5F9C7CC1E55519E00FCB7BD /* BaseViewModel.m in Sources */,
+				C55F7CC31E8AAF3700F12E10 /* UIImage+BRAdd.m in Sources */,
 				C5709A091DFA83E3002704EB /* AppDelegate.m in Sources */,
 				C5491C431E83926E00A11807 /* UINavigationController+Back.m in Sources */,
 				C5F9C7BA1E553AF900FCB7BD /* AppDelegate+Category.m in Sources */,
 				C5F9C7CF1E5552CE00FCB7BD /* NSObject+Parse.m in Sources */,
 				C5F9C7C31E55418B00FCB7BD /* BaseNetManager.m in Sources */,
 				C5709A061DFA83E3002704EB /* main.m in Sources */,
-				C54394D51E729A85005EF454 /* UIImage+Color.m in Sources */,
+				C50487181E8C016D007E626C /* UINavigationController+Alpha.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +529,7 @@
 			baseConfigurationReference = 9D63256C6F845543982445E8 /* Pods-MyBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56HTN5B782;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = MyBaseProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -536,6 +544,7 @@
 			baseConfigurationReference = A1DB763C942612557C586CB5 /* Pods-MyBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56HTN5B782;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = MyBaseProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

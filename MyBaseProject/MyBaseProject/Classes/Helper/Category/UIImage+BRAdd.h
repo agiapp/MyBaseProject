@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImage (BRAdd)
+/** 用颜色返回一张图片 */
++ (UIImage *)imageWithColor:(UIColor *)color;
+
+/** 为UIImage添加滤镜效果 */
+- (UIImage *)addFilter:(NSString *)filter;
 
 @end
