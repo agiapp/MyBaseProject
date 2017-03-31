@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface UINavigationController (Alpha)
-- (void)br_setBackgroundColor:(UIColor *)backgroundColor;
-- (void)br_setElementsAlpha:(CGFloat)alpha;
-- (void)br_setTranslationY:(CGFloat)translationY;
-- (void)br_reset;
+//- (void)br_setBackgroundColor:(UIColor *)backgroundColor;
+//- (void)br_setElementsAlpha:(CGFloat)alpha;
+//- (void)br_setTranslationY:(CGFloat)translationY;
+//- (void)br_reset;
 
 @end
