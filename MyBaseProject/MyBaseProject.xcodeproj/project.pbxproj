@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		862CC5743E1B62D686DD8ED8 /* libPods-MyBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6EC5F46F179928508A66EC /* libPods-MyBaseProject.a */; };
 		C50487181E8C016D007E626C /* UINavigationController+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C50487171E8C016D007E626C /* UINavigationController+Alpha.m */; };
-		C54394CF1E715EFB005EF454 /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = C54394CE1E715EFB005EF454 /* NSString+Check.m */; };
 		C5491C431E83926E00A11807 /* UINavigationController+Back.m in Sources */ = {isa = PBXBuildFile; fileRef = C5491C421E83926E00A11807 /* UINavigationController+Back.m */; };
 		C55F7CC31E8AAF3700F12E10 /* UIImage+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F7CC21E8AAF3700F12E10 /* UIImage+BRAdd.m */; };
 		C5709A061DFA83E3002704EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5709A051DFA83E3002704EB /* main.m */; };
@@ -17,6 +16,7 @@
 		C5709A0F1DFA83E3002704EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5709A0D1DFA83E3002704EB /* Main.storyboard */; };
 		C5709A111DFA83E3002704EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5709A101DFA83E3002704EB /* Assets.xcassets */; };
 		C5709A141DFA83E3002704EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5709A121DFA83E3002704EB /* LaunchScreen.storyboard */; };
+		C5AC374A1EA645470065F491 /* NSString+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AC37491EA645470065F491 /* NSString+BRAdd.m */; };
 		C5F9C7BA1E553AF900FCB7BD /* AppDelegate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9C7B91E553AF900FCB7BD /* AppDelegate+Category.m */; };
 		C5F9C7BD1E553BCD00FCB7BD /* NSObject+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9C7BC1E553BCD00FCB7BD /* NSObject+Network.m */; };
 		C5F9C7C01E553F6F00FCB7BD /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9C7BF1E553F6F00FCB7BD /* UIScrollView+Refresh.m */; };
@@ -34,8 +34,6 @@
 		A1DB763C942612557C586CB5 /* Pods-MyBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyBaseProject/Pods-MyBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		C50487161E8C016D007E626C /* UINavigationController+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Alpha.h"; sourceTree = "<group>"; };
 		C50487171E8C016D007E626C /* UINavigationController+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Alpha.m"; sourceTree = "<group>"; };
-		C54394CD1E715EFB005EF454 /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
-		C54394CE1E715EFB005EF454 /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
 		C5491C411E83926E00A11807 /* UINavigationController+Back.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Back.h"; sourceTree = "<group>"; };
 		C5491C421E83926E00A11807 /* UINavigationController+Back.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Back.m"; sourceTree = "<group>"; };
 		C55F7CC11E8AAF3700F12E10 /* UIImage+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BRAdd.h"; sourceTree = "<group>"; };
@@ -48,6 +46,8 @@
 		C5709A101DFA83E3002704EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		C5709A131DFA83E3002704EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5709A151DFA83E3002704EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5AC37481EA645470065F491 /* NSString+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BRAdd.h"; sourceTree = "<group>"; };
+		C5AC37491EA645470065F491 /* NSString+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BRAdd.m"; sourceTree = "<group>"; };
 		C5F9C7B61E553A1700FCB7BD /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		C5F9C7B71E553A2B00FCB7BD /* Methods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Methods.h; sourceTree = "<group>"; };
 		C5F9C7B81E553AF900FCB7BD /* AppDelegate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Category.h"; sourceTree = "<group>"; };
@@ -228,8 +228,8 @@
 				C5F9C7CE1E5552CE00FCB7BD /* NSObject+Parse.m */,
 				C5F9C7D11E55582100FCB7BD /* NSObject+HUD.h */,
 				C5F9C7D21E55582100FCB7BD /* NSObject+HUD.m */,
-				C54394CD1E715EFB005EF454 /* NSString+Check.h */,
-				C54394CE1E715EFB005EF454 /* NSString+Check.m */,
+				C5AC37481EA645470065F491 /* NSString+BRAdd.h */,
+				C5AC37491EA645470065F491 /* NSString+BRAdd.m */,
 				C55F7CC11E8AAF3700F12E10 /* UIImage+BRAdd.h */,
 				C55F7CC21E8AAF3700F12E10 /* UIImage+BRAdd.m */,
 				C5491C411E83926E00A11807 /* UINavigationController+Back.h */,
@@ -396,7 +396,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C54394CF1E715EFB005EF454 /* NSString+Check.m in Sources */,
 				C5F9C7C01E553F6F00FCB7BD /* UIScrollView+Refresh.m in Sources */,
 				C5F9C7C91E55510D00FCB7BD /* BaseViewController.m in Sources */,
 				C5F9C7C61E554FE200FCB7BD /* BaseModel.m in Sources */,
@@ -407,6 +406,7 @@
 				C5709A091DFA83E3002704EB /* AppDelegate.m in Sources */,
 				C5491C431E83926E00A11807 /* UINavigationController+Back.m in Sources */,
 				C5F9C7BA1E553AF900FCB7BD /* AppDelegate+Category.m in Sources */,
+				C5AC374A1EA645470065F491 /* NSString+BRAdd.m in Sources */,
 				C5F9C7CF1E5552CE00FCB7BD /* NSObject+Parse.m in Sources */,
 				C5F9C7C31E55418B00FCB7BD /* BaseNetManager.m in Sources */,
 				C5709A061DFA83E3002704EB /* main.m in Sources */,
