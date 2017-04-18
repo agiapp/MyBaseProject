@@ -31,5 +31,7 @@
 /** 正则匹配用户身份证号 */
 - (BOOL)checkIDCardNumber;
 
+/** md5加密 */
+- (NSString *)md5String;
 
 @end
