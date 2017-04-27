@@ -17,6 +17,7 @@
 		C5709A111DFA83E3002704EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5709A101DFA83E3002704EB /* Assets.xcassets */; };
 		C5709A141DFA83E3002704EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5709A121DFA83E3002704EB /* LaunchScreen.storyboard */; };
 		C5AC374A1EA645470065F491 /* NSString+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AC37491EA645470065F491 /* NSString+BRAdd.m */; };
+		C5BB49A21EB24BA500F63FA4 /* NSArray+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB49A11EB24BA500F63FA4 /* NSArray+BRAdd.m */; };
 		C5F9C7BA1E553AF900FCB7BD /* AppDelegate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9C7B91E553AF900FCB7BD /* AppDelegate+Category.m */; };
 		C5F9C7BD1E553BCD00FCB7BD /* NSObject+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9C7BC1E553BCD00FCB7BD /* NSObject+Network.m */; };
 		C5F9C7C01E553F6F00FCB7BD /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9C7BF1E553F6F00FCB7BD /* UIScrollView+Refresh.m */; };
@@ -48,6 +49,8 @@
 		C5709A151DFA83E3002704EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5AC37481EA645470065F491 /* NSString+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BRAdd.h"; sourceTree = "<group>"; };
 		C5AC37491EA645470065F491 /* NSString+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BRAdd.m"; sourceTree = "<group>"; };
+		C5BB49A01EB24BA500F63FA4 /* NSArray+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BRAdd.h"; sourceTree = "<group>"; };
+		C5BB49A11EB24BA500F63FA4 /* NSArray+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BRAdd.m"; sourceTree = "<group>"; };
 		C5F9C7B61E553A1700FCB7BD /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		C5F9C7B71E553A2B00FCB7BD /* Methods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Methods.h; sourceTree = "<group>"; };
 		C5F9C7B81E553AF900FCB7BD /* AppDelegate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Category.h"; sourceTree = "<group>"; };
@@ -230,6 +233,8 @@
 				C5F9C7D21E55582100FCB7BD /* NSObject+HUD.m */,
 				C5AC37481EA645470065F491 /* NSString+BRAdd.h */,
 				C5AC37491EA645470065F491 /* NSString+BRAdd.m */,
+				C5BB49A01EB24BA500F63FA4 /* NSArray+BRAdd.h */,
+				C5BB49A11EB24BA500F63FA4 /* NSArray+BRAdd.m */,
 				C55F7CC11E8AAF3700F12E10 /* UIImage+BRAdd.h */,
 				C55F7CC21E8AAF3700F12E10 /* UIImage+BRAdd.m */,
 				C5491C411E83926E00A11807 /* UINavigationController+Back.h */,
@@ -398,6 +403,7 @@
 			files = (
 				C5F9C7C01E553F6F00FCB7BD /* UIScrollView+Refresh.m in Sources */,
 				C5F9C7C91E55510D00FCB7BD /* BaseViewController.m in Sources */,
+				C5BB49A21EB24BA500F63FA4 /* NSArray+BRAdd.m in Sources */,
 				C5F9C7C61E554FE200FCB7BD /* BaseModel.m in Sources */,
 				C5F9C7D31E55582100FCB7BD /* NSObject+HUD.m in Sources */,
 				C5F9C7BD1E553BCD00FCB7BD /* NSObject+Network.m in Sources */,
