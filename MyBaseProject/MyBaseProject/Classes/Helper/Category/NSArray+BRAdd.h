@@ -13,4 +13,7 @@
 /** 数组/字典 转 json字符串 */
 - (NSString *)toJsonString;
 
+/** 数组/字典 转 JSON字符串(使用第三方框架SBJson) */
+- (NSString *)SB_toJsonString;
+
 @end

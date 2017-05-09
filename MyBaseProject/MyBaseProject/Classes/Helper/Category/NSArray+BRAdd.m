@@ -7,6 +7,7 @@
 //
 
 #import "NSArray+BRAdd.h"
+#import "SBJsonWriter.h"
 
 @implementation NSArray (BRAdd)
 
@@ -19,6 +20,13 @@
         NSLog(@"数组转JSON字符串失败：%@", error);
     }
     return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+}
+
+#pragma mark - 数组/字典 转 JSON字符串(使用第三方框架SBJson)
+- (NSString *)SB_toJsonString {
+    id obj = self;
+    SBJsonWriter *jsonWrite = [[SBJsonWriter alloc] init];
+    return [jsonWrite stringWithObject:obj];
 }
 
 @end
