@@ -30,6 +30,7 @@
 		C58F26E51EC201F000EF08BE /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F26D91EC201F000EF08BE /* SBJsonWriter.m */; };
 		C5AC374A1EA645470065F491 /* NSString+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AC37491EA645470065F491 /* NSString+BRAdd.m */; };
 		C5BB49A21EB24BA500F63FA4 /* NSArray+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB49A11EB24BA500F63FA4 /* NSArray+BRAdd.m */; };
+		C5F352991ECC882600E236BC /* UIImageView+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F352981ECC882600E236BC /* UIImageView+BRAdd.m */; };
 		C5F9C7BA1E553AF900FCB7BD /* AppDelegate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9C7B91E553AF900FCB7BD /* AppDelegate+Category.m */; };
 		C5F9C7BD1E553BCD00FCB7BD /* NSObject+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9C7BC1E553BCD00FCB7BD /* NSObject+Network.m */; };
 		C5F9C7C01E553F6F00FCB7BD /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9C7BF1E553F6F00FCB7BD /* UIScrollView+Refresh.m */; };
@@ -88,6 +89,8 @@
 		C5AC37491EA645470065F491 /* NSString+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BRAdd.m"; sourceTree = "<group>"; };
 		C5BB49A01EB24BA500F63FA4 /* NSArray+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BRAdd.h"; sourceTree = "<group>"; };
 		C5BB49A11EB24BA500F63FA4 /* NSArray+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BRAdd.m"; sourceTree = "<group>"; };
+		C5F352971ECC882600E236BC /* UIImageView+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BRAdd.h"; sourceTree = "<group>"; };
+		C5F352981ECC882600E236BC /* UIImageView+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BRAdd.m"; sourceTree = "<group>"; };
 		C5F9C7B61E553A1700FCB7BD /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		C5F9C7B71E553A2B00FCB7BD /* Methods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Methods.h; sourceTree = "<group>"; };
 		C5F9C7B81E553AF900FCB7BD /* AppDelegate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Category.h"; sourceTree = "<group>"; };
@@ -307,6 +310,8 @@
 				C5BB49A11EB24BA500F63FA4 /* NSArray+BRAdd.m */,
 				C55F7CC11E8AAF3700F12E10 /* UIImage+BRAdd.h */,
 				C55F7CC21E8AAF3700F12E10 /* UIImage+BRAdd.m */,
+				C5F352971ECC882600E236BC /* UIImageView+BRAdd.h */,
+				C5F352981ECC882600E236BC /* UIImageView+BRAdd.m */,
 				C5491C411E83926E00A11807 /* UINavigationController+Back.h */,
 				C5491C421E83926E00A11807 /* UINavigationController+Back.m */,
 				C50487161E8C016D007E626C /* UINavigationController+Alpha.h */,
@@ -485,6 +490,7 @@
 				C55F7CC31E8AAF3700F12E10 /* UIImage+BRAdd.m in Sources */,
 				C58F26DC1EC201F000EF08BE /* SBJsonStreamParser.m in Sources */,
 				C58F26DF1EC201F000EF08BE /* SBJsonStreamParserState.m in Sources */,
+				C5F352991ECC882600E236BC /* UIImageView+BRAdd.m in Sources */,
 				C58F26DD1EC201F000EF08BE /* SBJsonStreamParserAccumulator.m in Sources */,
 				C58F26E21EC201F000EF08BE /* SBJsonStreamWriterState.m in Sources */,
 				C58F26E31EC201F000EF08BE /* SBJsonTokeniser.m in Sources */,
