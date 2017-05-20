@@ -15,4 +15,7 @@
 /** 为UIImage添加滤镜效果 */
 - (UIImage *)addFilter:(NSString *)filter;
 
+/** 设置图片的透明度 */
+- (UIImage *)alpha:(CGFloat)alpha;
+
 @end
