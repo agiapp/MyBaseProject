@@ -33,6 +33,7 @@
 		C5BE25141ED33F7400A532ED /* BRTextInputLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE25131ED33F7400A532ED /* BRTextInputLimit.m */; };
 		C5BE251E1ED3C50B00A532ED /* ABYBannerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE251B1ED3C50B00A532ED /* ABYBannerScrollView.m */; };
 		C5BE251F1ED3C50B00A532ED /* ABYWaterAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE251D1ED3C50B00A532ED /* ABYWaterAnimation.m */; };
+		C5BE252B1ED5AFAB00A532ED /* BRBannerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE252A1ED5AFAB00A532ED /* BRBannerScrollView.m */; };
 		C5F352991ECC882600E236BC /* UIImageView+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F352981ECC882600E236BC /* UIImageView+BRAdd.m */; };
 		C5F9C7BA1E553AF900FCB7BD /* AppDelegate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9C7B91E553AF900FCB7BD /* AppDelegate+Category.m */; };
 		C5F9C7BD1E553BCD00FCB7BD /* NSObject+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F9C7BC1E553BCD00FCB7BD /* NSObject+Network.m */; };
@@ -99,6 +100,8 @@
 		C5BE251B1ED3C50B00A532ED /* ABYBannerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABYBannerScrollView.m; sourceTree = "<group>"; };
 		C5BE251C1ED3C50B00A532ED /* ABYWaterAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABYWaterAnimation.h; sourceTree = "<group>"; };
 		C5BE251D1ED3C50B00A532ED /* ABYWaterAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABYWaterAnimation.m; sourceTree = "<group>"; };
+		C5BE25291ED5AFAB00A532ED /* BRBannerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBannerScrollView.h; sourceTree = "<group>"; };
+		C5BE252A1ED5AFAB00A532ED /* BRBannerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBannerScrollView.m; sourceTree = "<group>"; };
 		C5F352971ECC882600E236BC /* UIImageView+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BRAdd.h"; sourceTree = "<group>"; };
 		C5F352981ECC882600E236BC /* UIImageView+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BRAdd.m"; sourceTree = "<group>"; };
 		C5F9C7B61E553A1700FCB7BD /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
@@ -218,6 +221,15 @@
 			path = ABYBannerScrollView;
 			sourceTree = "<group>";
 		};
+		C5BE25281ED5AFAB00A532ED /* BRBannerScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C5BE25291ED5AFAB00A532ED /* BRBannerScrollView.h */,
+				C5BE252A1ED5AFAB00A532ED /* BRBannerScrollView.m */,
+			);
+			path = BRBannerScrollView;
+			sourceTree = "<group>";
+		};
 		C5F9C7A41E55368300FCB7BD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +286,7 @@
 		C5F9C7AA1E55368300FCB7BD /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				C5BE25281ED5AFAB00A532ED /* BRBannerScrollView */,
 				C5BE25191ED3C50B00A532ED /* ABYBannerScrollView */,
 				C58F26C01EC201F000EF08BE /* SBJson */,
 			);
@@ -528,6 +541,7 @@
 				C58F26E51EC201F000EF08BE /* SBJsonWriter.m in Sources */,
 				C58F26E01EC201F000EF08BE /* SBJsonStreamWriter.m in Sources */,
 				C5F9C7CF1E5552CE00FCB7BD /* NSObject+Parse.m in Sources */,
+				C5BE252B1ED5AFAB00A532ED /* BRBannerScrollView.m in Sources */,
 				C5F9C7C31E55418B00FCB7BD /* BaseNetManager.m in Sources */,
 				C58F26DB1EC201F000EF08BE /* SBJsonParser.m in Sources */,
 				C5BE251E1ED3C50B00A532ED /* ABYBannerScrollView.m in Sources */,
