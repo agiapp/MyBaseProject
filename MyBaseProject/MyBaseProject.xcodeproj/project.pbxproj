@@ -16,6 +16,7 @@
 		C5709A0F1DFA83E3002704EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5709A0D1DFA83E3002704EB /* Main.storyboard */; };
 		C5709A111DFA83E3002704EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5709A101DFA83E3002704EB /* Assets.xcassets */; };
 		C5709A141DFA83E3002704EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5709A121DFA83E3002704EB /* LaunchScreen.storyboard */; };
+		C582B0EE1ED6FA9A00D87EA2 /* NSData+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C582B0ED1ED6FA9A00D87EA2 /* NSData+BRAdd.m */; };
 		C58F26DA1EC201F000EF08BE /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F26C21EC201F000EF08BE /* NSObject+SBJson.m */; };
 		C58F26DB1EC201F000EF08BE /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F26C51EC201F000EF08BE /* SBJsonParser.m */; };
 		C58F26DC1EC201F000EF08BE /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F26C71EC201F000EF08BE /* SBJsonStreamParser.m */; };
@@ -64,6 +65,8 @@
 		C5709A101DFA83E3002704EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		C5709A131DFA83E3002704EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5709A151DFA83E3002704EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C582B0EC1ED6FA9A00D87EA2 /* NSData+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+BRAdd.h"; sourceTree = "<group>"; };
+		C582B0ED1ED6FA9A00D87EA2 /* NSData+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+BRAdd.m"; sourceTree = "<group>"; };
 		C58F26C11EC201F000EF08BE /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
 		C58F26C21EC201F000EF08BE /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
 		C58F26C31EC201F000EF08BE /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
@@ -342,6 +345,8 @@
 				C5F9C7D21E55582100FCB7BD /* NSObject+HUD.m */,
 				C5AC37481EA645470065F491 /* NSString+BRAdd.h */,
 				C5AC37491EA645470065F491 /* NSString+BRAdd.m */,
+				C582B0EC1ED6FA9A00D87EA2 /* NSData+BRAdd.h */,
+				C582B0ED1ED6FA9A00D87EA2 /* NSData+BRAdd.m */,
 				C5BB49A01EB24BA500F63FA4 /* NSArray+BRAdd.h */,
 				C5BB49A11EB24BA500F63FA4 /* NSArray+BRAdd.m */,
 				C55F7CC11E8AAF3700F12E10 /* UIImage+BRAdd.h */,
@@ -546,6 +551,7 @@
 				C58F26DB1EC201F000EF08BE /* SBJsonParser.m in Sources */,
 				C5BE251E1ED3C50B00A532ED /* ABYBannerScrollView.m in Sources */,
 				C5709A061DFA83E3002704EB /* main.m in Sources */,
+				C582B0EE1ED6FA9A00D87EA2 /* NSData+BRAdd.m in Sources */,
 				C50487181E8C016D007E626C /* UINavigationController+Alpha.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
