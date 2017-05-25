@@ -31,5 +31,18 @@
  */
 + (NSString *)dateStringWithDelta:(NSTimeInterval)delta;
 
+/**
+ *  返回日期格式字符串
+ *
+ *  @param dateStr 需要转换的时间点
+ *  @return 日期字符串
+ *    返回具体格式如下：
+ *      - 刚刚(一分钟内)
+ *      - X分钟前(一小时内)
+ *      - X小时前(当天)
+ *      - MM-dd HH:mm(一年内)
+ *      - yyyy-MM-dd HH:mm(更早期)
+ */
++ (NSString *)dateDescriptionWithTargetDate:(NSString *)dateStr andTargetDateFormat:(NSString *)dateFormatStr;
 
 @end
