@@ -39,4 +39,12 @@
     return currentDateStr;
 }
 
+#pragma mark - 返回指定时间差值的日期字符串
++ (NSString *)dateStringWithDelta:(NSTimeInterval)delta {
+    NSDate *date = [NSDate dateWithTimeIntervalSinceNow:delta];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.dateFormat = @"yyyy-MM-dd HH:mm:ss";
+    return [formatter stringFromDate:date];
+}
+
 @end

@@ -23,6 +23,13 @@
  */
 + (NSString *)currentDateStringWithFormat:(NSString *)formatterStr;
 
+/**
+ *  返回指定时间差值的日期字符串
+ *
+ *  @param delta 时间差值
+ *  @return 日期字符串，格式：yyyy-MM-dd HH:mm:ss
+ */
++ (NSString *)dateStringWithDelta:(NSTimeInterval)delta;
 
 
 @end
