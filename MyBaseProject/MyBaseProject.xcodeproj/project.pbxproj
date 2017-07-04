@@ -10,6 +10,7 @@
 		862CC5743E1B62D686DD8ED8 /* libPods-MyBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6EC5F46F179928508A66EC /* libPods-MyBaseProject.a */; };
 		C50487181E8C016D007E626C /* UINavigationController+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C50487171E8C016D007E626C /* UINavigationController+Alpha.m */; };
 		C5491C431E83926E00A11807 /* UINavigationController+Back.m in Sources */ = {isa = PBXBuildFile; fileRef = C5491C421E83926E00A11807 /* UINavigationController+Back.m */; };
+		C549BEF31F0B69D9008F3467 /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = C549BEF21F0B69D9008F3467 /* UIButton+Layout.m */; };
 		C55F7CC31E8AAF3700F12E10 /* UIImage+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C55F7CC21E8AAF3700F12E10 /* UIImage+BRAdd.m */; };
 		C5709A061DFA83E3002704EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5709A051DFA83E3002704EB /* main.m */; };
 		C5709A091DFA83E3002704EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5709A081DFA83E3002704EB /* AppDelegate.m */; };
@@ -56,6 +57,8 @@
 		C50487171E8C016D007E626C /* UINavigationController+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Alpha.m"; sourceTree = "<group>"; };
 		C5491C411E83926E00A11807 /* UINavigationController+Back.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Back.h"; sourceTree = "<group>"; };
 		C5491C421E83926E00A11807 /* UINavigationController+Back.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Back.m"; sourceTree = "<group>"; };
+		C549BEF11F0B69D9008F3467 /* UIButton+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Layout.h"; sourceTree = "<group>"; };
+		C549BEF21F0B69D9008F3467 /* UIButton+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layout.m"; sourceTree = "<group>"; };
 		C55F7CC11E8AAF3700F12E10 /* UIImage+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BRAdd.h"; sourceTree = "<group>"; };
 		C55F7CC21E8AAF3700F12E10 /* UIImage+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BRAdd.m"; sourceTree = "<group>"; };
 		C5709A011DFA83E3002704EB /* MyBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -358,6 +361,8 @@
 				C55F7CC21E8AAF3700F12E10 /* UIImage+BRAdd.m */,
 				C5F352971ECC882600E236BC /* UIImageView+BRAdd.h */,
 				C5F352981ECC882600E236BC /* UIImageView+BRAdd.m */,
+				C549BEF11F0B69D9008F3467 /* UIButton+Layout.h */,
+				C549BEF21F0B69D9008F3467 /* UIButton+Layout.m */,
 				C5491C411E83926E00A11807 /* UINavigationController+Back.h */,
 				C5491C421E83926E00A11807 /* UINavigationController+Back.m */,
 				C50487161E8C016D007E626C /* UINavigationController+Alpha.h */,
@@ -543,6 +548,7 @@
 				C5BE25141ED33F7400A532ED /* BRTextInputLimit.m in Sources */,
 				C58F26DD1EC201F000EF08BE /* SBJsonStreamParserAccumulator.m in Sources */,
 				C58F26E21EC201F000EF08BE /* SBJsonStreamWriterState.m in Sources */,
+				C549BEF31F0B69D9008F3467 /* UIButton+Layout.m in Sources */,
 				C58F26E31EC201F000EF08BE /* SBJsonTokeniser.m in Sources */,
 				C5709A091DFA83E3002704EB /* AppDelegate.m in Sources */,
 				C5491C431E83926E00A11807 /* UINavigationController+Back.m in Sources */,
