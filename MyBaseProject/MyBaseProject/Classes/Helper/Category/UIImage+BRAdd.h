@@ -18,4 +18,7 @@
 /** 设置图片的透明度 */
 - (UIImage *)alpha:(CGFloat)alpha;
 
+/** 返回中心拉伸的图片 */
++ (UIImage *)stretchedImageWithName:(NSString *)name;
+
 @end
