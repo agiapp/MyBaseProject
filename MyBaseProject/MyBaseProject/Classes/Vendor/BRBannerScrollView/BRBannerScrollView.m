@@ -14,7 +14,6 @@
 #define minImageAlpha 0.9   //左右小图片蒙版的透明度
 
 #import "BRBannerScrollView.h"
-#import "ABYGuideViewController.h"
 
 @class ABYGuideViewController;
 @interface BRBannerScrollView ()<UIScrollViewDelegate>
