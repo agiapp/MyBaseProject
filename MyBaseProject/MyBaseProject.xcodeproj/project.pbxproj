@@ -31,6 +31,8 @@
 		C58F26E31EC201F000EF08BE /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F26D51EC201F000EF08BE /* SBJsonTokeniser.m */; };
 		C58F26E41EC201F000EF08BE /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F26D71EC201F000EF08BE /* SBJsonUTF8Stream.m */; };
 		C58F26E51EC201F000EF08BE /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F26D91EC201F000EF08BE /* SBJsonWriter.m */; };
+		C5A9F2992005AED100F59096 /* KeychainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9F2982005AED100F59096 /* KeychainTool.m */; };
+		C5A9F29D2005AEF700F59096 /* NSString+YY_NSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9F29C2005AEF700F59096 /* NSString+YY_NSPredicate.m */; };
 		C5AC374A1EA645470065F491 /* NSString+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AC37491EA645470065F491 /* NSString+BRAdd.m */; };
 		C5BB49A21EB24BA500F63FA4 /* NSArray+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BB49A11EB24BA500F63FA4 /* NSArray+BRAdd.m */; };
 		C5BE25141ED33F7400A532ED /* BRTextInputLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE25131ED33F7400A532ED /* BRTextInputLimit.m */; };
@@ -98,6 +100,10 @@
 		C58F26D71EC201F000EF08BE /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		C58F26D81EC201F000EF08BE /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		C58F26D91EC201F000EF08BE /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		C5A9F2972005AED100F59096 /* KeychainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainTool.h; sourceTree = "<group>"; };
+		C5A9F2982005AED100F59096 /* KeychainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainTool.m; sourceTree = "<group>"; };
+		C5A9F29B2005AEF700F59096 /* NSString+YY_NSPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YY_NSPredicate.h"; sourceTree = "<group>"; };
+		C5A9F29C2005AEF700F59096 /* NSString+YY_NSPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YY_NSPredicate.m"; sourceTree = "<group>"; };
 		C5AC37481EA645470065F491 /* NSString+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BRAdd.h"; sourceTree = "<group>"; };
 		C5AC37491EA645470065F491 /* NSString+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BRAdd.m"; sourceTree = "<group>"; };
 		C5BB49A01EB24BA500F63FA4 /* NSArray+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BRAdd.h"; sourceTree = "<group>"; };
@@ -217,6 +223,24 @@
 				C58F26D91EC201F000EF08BE /* SBJsonWriter.m */,
 			);
 			path = SBJson;
+			sourceTree = "<group>";
+		};
+		C5A9F2962005AEAF00F59096 /* 钥匙串 */ = {
+			isa = PBXGroup;
+			children = (
+				C5A9F2972005AED100F59096 /* KeychainTool.h */,
+				C5A9F2982005AED100F59096 /* KeychainTool.m */,
+			);
+			path = "钥匙串";
+			sourceTree = "<group>";
+		};
+		C5A9F29A2005AEDD00F59096 /* 常用的正则表达式 */ = {
+			isa = PBXGroup;
+			children = (
+				C5A9F29B2005AEF700F59096 /* NSString+YY_NSPredicate.h */,
+				C5A9F29C2005AEF700F59096 /* NSString+YY_NSPredicate.m */,
+			);
+			path = "常用的正则表达式";
 			sourceTree = "<group>";
 		};
 		C5BE25191ED3C50B00A532ED /* ABYBannerScrollView */ = {
@@ -374,6 +398,8 @@
 		C5F9C7B31E55375700FCB7BD /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C5A9F29A2005AEDD00F59096 /* 常用的正则表达式 */,
+				C5A9F2962005AEAF00F59096 /* 钥匙串 */,
 				C5BE25121ED33F7400A532ED /* BRTextInputLimit.h */,
 				C5BE25131ED33F7400A532ED /* BRTextInputLimit.m */,
 			);
@@ -553,6 +579,7 @@
 				C5709A091DFA83E3002704EB /* AppDelegate.m in Sources */,
 				C5491C431E83926E00A11807 /* UINavigationController+Back.m in Sources */,
 				C5F9C7BA1E553AF900FCB7BD /* AppDelegate+Category.m in Sources */,
+				C5A9F29D2005AEF700F59096 /* NSString+YY_NSPredicate.m in Sources */,
 				C5AC374A1EA645470065F491 /* NSString+BRAdd.m in Sources */,
 				C58F26E51EC201F000EF08BE /* SBJsonWriter.m in Sources */,
 				C58F26E01EC201F000EF08BE /* SBJsonStreamWriter.m in Sources */,
@@ -562,6 +589,7 @@
 				C5F9C7C31E55418B00FCB7BD /* BaseNetManager.m in Sources */,
 				C58F26DB1EC201F000EF08BE /* SBJsonParser.m in Sources */,
 				C5BE251E1ED3C50B00A532ED /* ABYBannerScrollView.m in Sources */,
+				C5A9F2992005AED100F59096 /* KeychainTool.m in Sources */,
 				C5709A061DFA83E3002704EB /* main.m in Sources */,
 				C582B0EE1ED6FA9A00D87EA2 /* NSData+BRAdd.m in Sources */,
 				C50487181E8C016D007E626C /* UINavigationController+Alpha.m in Sources */,
