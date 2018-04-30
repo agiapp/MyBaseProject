@@ -10,16 +10,16 @@
 #import <UIKit/UIKit.h>
 
 // 常量
-UIKIT_EXTERN NSString *const BSAPIURL;
-UIKIT_EXTERN NSString *const BSIMAGEURL; // 获取图片服务.
-UIKIT_EXTERN NSString *const BSWEBURL;
+FOUNDATION_EXTERN NSString *const kApiUrl;   // APP接口基本地址
+FOUNDATION_EXTERN NSString *const kImageUrl; // APP图片资源基本地址
+FOUNDATION_EXTERN NSString *const kWebUrl;   // APP网页基本地址
 
 //=================消息推送 Key=============
 // 令牌失效
-UIKIT_EXTERN NSString *const BSAccessTokenExpiredNotifKey;
+UIKIT_EXTERN NSString *const BRAccessTokenExpiredNotifKey;
 
 
 //================= NSUserDefault Key=============
 // 首页数据缓存 key
-UIKIT_EXTERN NSString *const BSUserDefaultsHomeDataKey;
+FOUNDATION_EXTERN NSString *const BRUserDefaultsHomeDataKey;
 
