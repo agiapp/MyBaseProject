@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6C0AF448F4FC876175B688CE /* libPods-MyBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7263652FA340768308475A43 /* libPods-MyBaseProject.a */; };
+		C5081FBD20BD453100531B70 /* BRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5081FBC20BD453100531B70 /* BRTabBarController.m */; };
+		C5081FC120BD4A6700531B70 /* BRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5081FC020BD4A6700531B70 /* BRBaseViewController.m */; };
+		C5081FC520BD585300531B70 /* BRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5081FC420BD585300531B70 /* BRNavigationController.m */; };
 		C5B6F21B20971004002276E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B6F21A20971004002276E0 /* AppDelegate.m */; };
 		C5B6F22120971004002276E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B6F21F20971004002276E0 /* Main.storyboard */; };
 		C5B6F22320971006002276E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B6F22220971006002276E0 /* Assets.xcassets */; };
@@ -20,6 +23,12 @@
 		3FECF1899AA61880DF5661AB /* Pods-MyBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyBaseProject/Pods-MyBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		7263652FA340768308475A43 /* libPods-MyBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC56A4F9F864D893551485DE /* Pods-MyBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyBaseProject/Pods-MyBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		C5081FBB20BD453100531B70 /* BRTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRTabBarController.h; sourceTree = "<group>"; };
+		C5081FBC20BD453100531B70 /* BRTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRTabBarController.m; sourceTree = "<group>"; };
+		C5081FBF20BD4A6700531B70 /* BRBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRBaseViewController.h; sourceTree = "<group>"; };
+		C5081FC020BD4A6700531B70 /* BRBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRBaseViewController.m; sourceTree = "<group>"; };
+		C5081FC320BD585300531B70 /* BRNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRNavigationController.h; sourceTree = "<group>"; };
+		C5081FC420BD585300531B70 /* BRNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRNavigationController.m; sourceTree = "<group>"; };
 		C5B6F21620971004002276E0 /* MyBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B6F21920971004002276E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5B6F21A20971004002276E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +71,33 @@
 				7263652FA340768308475A43 /* libPods-MyBaseProject.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5081FBA20BD44F300531B70 /* BRTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C5081FBB20BD453100531B70 /* BRTabBarController.h */,
+				C5081FBC20BD453100531B70 /* BRTabBarController.m */,
+			);
+			path = BRTabBarController;
+			sourceTree = "<group>";
+		};
+		C5081FBE20BD49F600531B70 /* BRBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5081FBF20BD4A6700531B70 /* BRBaseViewController.h */,
+				C5081FC020BD4A6700531B70 /* BRBaseViewController.m */,
+			);
+			path = BRBaseViewController;
+			sourceTree = "<group>";
+		};
+		C5081FC220BD583200531B70 /* BRNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				C5081FC320BD585300531B70 /* BRNavigationController.h */,
+				C5081FC420BD585300531B70 /* BRNavigationController.m */,
+			);
+			path = BRNavigationController;
 			sourceTree = "<group>";
 		};
 		C5B6F20D20971004002276E0 = {
@@ -159,6 +195,9 @@
 		C5B6F23720971858002276E0 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				C5081FC220BD583200531B70 /* BRNavigationController */,
+				C5081FBE20BD49F600531B70 /* BRBaseViewController */,
+				C5081FBA20BD44F300531B70 /* BRTabBarController */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -290,9 +329,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5081FC120BD4A6700531B70 /* BRBaseViewController.m in Sources */,
 				C5B6F22920971006002276E0 /* main.m in Sources */,
 				C5B6F27C20971FE9002276E0 /* BRConst.m in Sources */,
 				C5B6F21B20971004002276E0 /* AppDelegate.m in Sources */,
+				C5081FBD20BD453100531B70 /* BRTabBarController.m in Sources */,
+				C5081FC520BD585300531B70 /* BRNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
