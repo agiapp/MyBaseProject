@@ -12,5 +12,8 @@
 //宏
 #import "BRMacros.h"
 #import "BRConst.h"
+#import "BRConfig.h"
+
+#import "BRKit.h"
 
 #endif /* PrefixHeader_pch */
