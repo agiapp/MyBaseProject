@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4565A7E220BFA00200313434 /* UIView+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7C320BFA00200313434 /* UIView+BRAdd.m */; };
+		4565A7E320BFA00200313434 /* UIImageView+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7C520BFA00200313434 /* UIImageView+BRAdd.m */; };
+		4565A7E420BFA00200313434 /* UIColor+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7C720BFA00200313434 /* UIColor+BRAdd.m */; };
+		4565A7E520BFA00200313434 /* UITextField+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7C920BFA00200313434 /* UITextField+BRAdd.m */; };
+		4565A7E620BFA00200313434 /* UIControl+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7CC20BFA00200313434 /* UIControl+BRAdd.m */; };
+		4565A7E720BFA00200313434 /* UIImage+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7CE20BFA00200313434 /* UIImage+BRAdd.m */; };
+		4565A7E820BFA00200313434 /* UITextView+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7D020BFA00200313434 /* UITextView+BRAdd.m */; };
+		4565A7E920BFA00200313434 /* UIButton+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7D220BFA00200313434 /* UIButton+BRAdd.m */; };
+		4565A7EA20BFA00200313434 /* NSNumber+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7D920BFA00200313434 /* NSNumber+BRAdd.m */; };
+		4565A7EB20BFA00200313434 /* NSArray+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7DA20BFA00200313434 /* NSArray+BRAdd.m */; };
+		4565A7EC20BFA00200313434 /* NSDictionary+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7DB20BFA00200313434 /* NSDictionary+BRAdd.m */; };
+		4565A7ED20BFA00200313434 /* NSString+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7DC20BFA00200313434 /* NSString+BRAdd.m */; };
+		4565A7EE20BFA00200313434 /* NSDate+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7DD20BFA00200313434 /* NSDate+BRAdd.m */; };
+		4565A7EF20BFA00200313434 /* NSTimer+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7E020BFA00200313434 /* NSTimer+BRAdd.m */; };
 		6C0AF448F4FC876175B688CE /* libPods-MyBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7263652FA340768308475A43 /* libPods-MyBaseProject.a */; };
 		C5081FBD20BD453100531B70 /* BRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5081FBC20BD453100531B70 /* BRTabBarController.m */; };
 		C5081FC120BD4A6700531B70 /* BRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5081FC020BD4A6700531B70 /* BRBaseViewController.m */; };
@@ -21,6 +35,37 @@
 
 /* Begin PBXFileReference section */
 		3FECF1899AA61880DF5661AB /* Pods-MyBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyBaseProject/Pods-MyBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		4565A7C120BFA00200313434 /* BRKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRKitMacro.h; sourceTree = "<group>"; };
+		4565A7C320BFA00200313434 /* UIView+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7C420BFA00200313434 /* UIImage+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7C520BFA00200313434 /* UIImageView+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7C620BFA00200313434 /* UIControl+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7C720BFA00200313434 /* UIColor+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7C820BFA00200313434 /* UIButton+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7C920BFA00200313434 /* UITextField+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7CA20BFA00200313434 /* UITextView+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7CB20BFA00200313434 /* UIView+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7CC20BFA00200313434 /* UIControl+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7CD20BFA00200313434 /* UIImageView+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7CE20BFA00200313434 /* UIImage+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7CF20BFA00200313434 /* UIColor+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7D020BFA00200313434 /* UITextView+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7D120BFA00200313434 /* UITextField+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7D220BFA00200313434 /* UIButton+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7D420BFA00200313434 /* NSDictionary+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7D520BFA00200313434 /* NSString+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7D620BFA00200313434 /* BRMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRMethod.h; sourceTree = "<group>"; };
+		4565A7D720BFA00200313434 /* NSDate+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7D820BFA00200313434 /* NSTimer+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7D920BFA00200313434 /* NSNumber+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7DA20BFA00200313434 /* NSArray+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7DB20BFA00200313434 /* NSDictionary+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7DC20BFA00200313434 /* NSString+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7DD20BFA00200313434 /* NSDate+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7DE20BFA00200313434 /* NSArray+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7DF20BFA00200313434 /* NSNumber+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+BRAdd.h"; sourceTree = "<group>"; };
+		4565A7E020BFA00200313434 /* NSTimer+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BRAdd.m"; sourceTree = "<group>"; };
+		4565A7E120BFA00200313434 /* BRKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRKit.h; sourceTree = "<group>"; };
 		7263652FA340768308475A43 /* libPods-MyBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC56A4F9F864D893551485DE /* Pods-MyBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyBaseProject/Pods-MyBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		C5081FBB20BD453100531B70 /* BRTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRTabBarController.h; sourceTree = "<group>"; };
@@ -71,6 +116,113 @@
 				7263652FA340768308475A43 /* libPods-MyBaseProject.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4565A7B720BEF0A700313434 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4565A7BA20BEF0FF00313434 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4565A7C020BFA00200313434 /* BRKit */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4565A7BB20BEF72600313434 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4565A7BC20BEF72F00313434 /* Login&Register */,
+				4565A7BD20BEF73600313434 /* Home */,
+				4565A7BE20BEF73D00313434 /* Mine */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4565A7BC20BEF72F00313434 /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		4565A7BD20BEF73600313434 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4565A7BE20BEF73D00313434 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		4565A7BF20BEF76500313434 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		4565A7C020BFA00200313434 /* BRKit */ = {
+			isa = PBXGroup;
+			children = (
+				4565A7E120BFA00200313434 /* BRKit.h */,
+				4565A7C120BFA00200313434 /* BRKitMacro.h */,
+				4565A7C220BFA00200313434 /* UIKit */,
+				4565A7D320BFA00200313434 /* Foundation */,
+			);
+			path = BRKit;
+			sourceTree = "<group>";
+		};
+		4565A7C220BFA00200313434 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4565A7C320BFA00200313434 /* UIView+BRAdd.m */,
+				4565A7C420BFA00200313434 /* UIImage+BRAdd.h */,
+				4565A7CE20BFA00200313434 /* UIImage+BRAdd.m */,
+				4565A7C520BFA00200313434 /* UIImageView+BRAdd.m */,
+				4565A7C620BFA00200313434 /* UIControl+BRAdd.h */,
+				4565A7C720BFA00200313434 /* UIColor+BRAdd.m */,
+				4565A7C820BFA00200313434 /* UIButton+BRAdd.h */,
+				4565A7C920BFA00200313434 /* UITextField+BRAdd.m */,
+				4565A7CA20BFA00200313434 /* UITextView+BRAdd.h */,
+				4565A7CB20BFA00200313434 /* UIView+BRAdd.h */,
+				4565A7CC20BFA00200313434 /* UIControl+BRAdd.m */,
+				4565A7CD20BFA00200313434 /* UIImageView+BRAdd.h */,
+				4565A7CF20BFA00200313434 /* UIColor+BRAdd.h */,
+				4565A7D020BFA00200313434 /* UITextView+BRAdd.m */,
+				4565A7D120BFA00200313434 /* UITextField+BRAdd.h */,
+				4565A7D220BFA00200313434 /* UIButton+BRAdd.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		4565A7D320BFA00200313434 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				4565A7D420BFA00200313434 /* NSDictionary+BRAdd.h */,
+				4565A7D520BFA00200313434 /* NSString+BRAdd.h */,
+				4565A7D620BFA00200313434 /* BRMethod.h */,
+				4565A7D720BFA00200313434 /* NSDate+BRAdd.h */,
+				4565A7D820BFA00200313434 /* NSTimer+BRAdd.h */,
+				4565A7D920BFA00200313434 /* NSNumber+BRAdd.m */,
+				4565A7DA20BFA00200313434 /* NSArray+BRAdd.m */,
+				4565A7DB20BFA00200313434 /* NSDictionary+BRAdd.m */,
+				4565A7DC20BFA00200313434 /* NSString+BRAdd.m */,
+				4565A7DD20BFA00200313434 /* NSDate+BRAdd.m */,
+				4565A7DE20BFA00200313434 /* NSArray+BRAdd.h */,
+				4565A7DF20BFA00200313434 /* NSNumber+BRAdd.h */,
+				4565A7E020BFA00200313434 /* NSTimer+BRAdd.m */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 		C5081FBA20BD44F300531B70 /* BRTabBarController */ = {
@@ -124,10 +276,10 @@
 				C5B6F23320971750002276E0 /* Define */,
 				C5B6F23720971858002276E0 /* Base */,
 				C5B6F22F209711E3002276E0 /* Main */,
-				C5B6F23120971239002276E0 /* Modules */,
-				C5B6F23520971841002276E0 /* Manager */,
-				C5B6F2362097184D002276E0 /* Utils */,
-				C5B6F2342097179D002276E0 /* Vendor */,
+				4565A7BB20BEF72600313434 /* Modules */,
+				4565A7B720BEF0A700313434 /* Manager */,
+				4565A7BA20BEF0FF00313434 /* Utils */,
+				4565A7BF20BEF76500313434 /* Vendor */,
 				C5B6F2382097186A002276E0 /* Resource */,
 				C5B6F23920971870002276E0 /* Other */,
 			);
@@ -143,23 +295,6 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		C5B6F23120971239002276E0 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				C5B6F23220971304002276E0 /* Login&Register */,
-				C5B6F27820971D0F002276E0 /* Home */,
-				C5B6F27920971D16002276E0 /* Mine */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		C5B6F23220971304002276E0 /* Login&Register */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Login&Register";
-			sourceTree = "<group>";
-		};
 		C5B6F23320971750002276E0 /* Define */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,32 +306,11 @@
 			path = Define;
 			sourceTree = "<group>";
 		};
-		C5B6F2342097179D002276E0 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
-		C5B6F23520971841002276E0 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		C5B6F2362097184D002276E0 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 		C5B6F23720971858002276E0 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				C5081FC220BD583200531B70 /* BRNavigationController */,
 				C5081FBE20BD49F600531B70 /* BRBaseViewController */,
+				C5081FC220BD583200531B70 /* BRNavigationController */,
 				C5081FBA20BD44F300531B70 /* BRTabBarController */,
 			);
 			path = Base;
@@ -213,27 +327,13 @@
 		C5B6F23920971870002276E0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				C5B6F27F20974F9D002276E0 /* PrefixHeader.pch */,
 				C5B6F21F20971004002276E0 /* Main.storyboard */,
 				C5B6F22420971006002276E0 /* LaunchScreen.storyboard */,
 				C5B6F22720971006002276E0 /* Info.plist */,
 				C5B6F22820971006002276E0 /* main.m */,
-				C5B6F27F20974F9D002276E0 /* PrefixHeader.pch */,
 			);
 			path = Other;
-			sourceTree = "<group>";
-		};
-		C5B6F27820971D0F002276E0 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		C5B6F27920971D16002276E0 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,11 +430,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5081FC120BD4A6700531B70 /* BRBaseViewController.m in Sources */,
+				4565A7EC20BFA00200313434 /* NSDictionary+BRAdd.m in Sources */,
 				C5B6F22920971006002276E0 /* main.m in Sources */,
+				4565A7EB20BFA00200313434 /* NSArray+BRAdd.m in Sources */,
+				4565A7EF20BFA00200313434 /* NSTimer+BRAdd.m in Sources */,
+				4565A7E320BFA00200313434 /* UIImageView+BRAdd.m in Sources */,
+				4565A7E520BFA00200313434 /* UITextField+BRAdd.m in Sources */,
+				4565A7EE20BFA00200313434 /* NSDate+BRAdd.m in Sources */,
 				C5B6F27C20971FE9002276E0 /* BRConst.m in Sources */,
 				C5B6F21B20971004002276E0 /* AppDelegate.m in Sources */,
+				4565A7E620BFA00200313434 /* UIControl+BRAdd.m in Sources */,
+				4565A7E920BFA00200313434 /* UIButton+BRAdd.m in Sources */,
+				4565A7EA20BFA00200313434 /* NSNumber+BRAdd.m in Sources */,
+				4565A7ED20BFA00200313434 /* NSString+BRAdd.m in Sources */,
+				4565A7E720BFA00200313434 /* UIImage+BRAdd.m in Sources */,
+				4565A7E420BFA00200313434 /* UIColor+BRAdd.m in Sources */,
+				4565A7E220BFA00200313434 /* UIView+BRAdd.m in Sources */,
 				C5081FBD20BD453100531B70 /* BRTabBarController.m in Sources */,
 				C5081FC520BD585300531B70 /* BRNavigationController.m in Sources */,
+				4565A7E820BFA00200313434 /* UITextView+BRAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
