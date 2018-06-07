@@ -21,6 +21,7 @@
 		4565A7ED20BFA00200313434 /* NSString+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7DC20BFA00200313434 /* NSString+BRAdd.m */; };
 		4565A7EE20BFA00200313434 /* NSDate+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7DD20BFA00200313434 /* NSDate+BRAdd.m */; };
 		4565A7EF20BFA00200313434 /* NSTimer+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7E020BFA00200313434 /* NSTimer+BRAdd.m */; };
+		4565A7F920C0E15800313434 /* BRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4565A7F820C0E15800313434 /* BRLoginViewController.m */; };
 		6C0AF448F4FC876175B688CE /* libPods-MyBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7263652FA340768308475A43 /* libPods-MyBaseProject.a */; };
 		C5081FBD20BD453100531B70 /* BRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5081FBC20BD453100531B70 /* BRTabBarController.m */; };
 		C5081FC120BD4A6700531B70 /* BRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5081FC020BD4A6700531B70 /* BRBaseViewController.m */; };
@@ -66,6 +67,8 @@
 		4565A7DF20BFA00200313434 /* NSNumber+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+BRAdd.h"; sourceTree = "<group>"; };
 		4565A7E020BFA00200313434 /* NSTimer+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BRAdd.m"; sourceTree = "<group>"; };
 		4565A7E120BFA00200313434 /* BRKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRKit.h; sourceTree = "<group>"; };
+		4565A7F720C0E15800313434 /* BRLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRLoginViewController.h; sourceTree = "<group>"; };
+		4565A7F820C0E15800313434 /* BRLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRLoginViewController.m; sourceTree = "<group>"; };
 		7263652FA340768308475A43 /* libPods-MyBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC56A4F9F864D893551485DE /* Pods-MyBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyBaseProject/Pods-MyBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		C5081FBB20BD453100531B70 /* BRTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRTabBarController.h; sourceTree = "<group>"; };
@@ -146,6 +149,10 @@
 		4565A7BC20BEF72F00313434 /* Login&Register */ = {
 			isa = PBXGroup;
 			children = (
+				4565A7F620C0E12700313434 /* Handler */,
+				4565A7F520C0E11E00313434 /* Model */,
+				4565A7F420C0DF9000313434 /* View */,
+				4565A7F320C0DF8000313434 /* Controller */,
 			);
 			path = "Login&Register";
 			sourceTree = "<group>";
@@ -223,6 +230,36 @@
 				4565A7E020BFA00200313434 /* NSTimer+BRAdd.m */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		4565A7F320C0DF8000313434 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4565A7F720C0E15800313434 /* BRLoginViewController.h */,
+				4565A7F820C0E15800313434 /* BRLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4565A7F420C0DF9000313434 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4565A7F520C0E11E00313434 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4565A7F620C0E12700313434 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
 			sourceTree = "<group>";
 		};
 		C5081FBA20BD44F300531B70 /* BRTabBarController */ = {
@@ -449,6 +486,7 @@
 				C5081FBD20BD453100531B70 /* BRTabBarController.m in Sources */,
 				C5081FC520BD585300531B70 /* BRNavigationController.m in Sources */,
 				4565A7E820BFA00200313434 /* UITextView+BRAdd.m in Sources */,
+				4565A7F920C0E15800313434 /* BRLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
